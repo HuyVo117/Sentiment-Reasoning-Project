@@ -1,15 +1,11 @@
-# Sửa dòng này!
-# Sử dụng --extra-index-url để pip tìm kiếm ở cả kho chính PyPI và index của PyTorch
+# requirements.txt (Phiên bản cuối cùng)
+
 --extra-index-url https://download.pytorch.org/whl/cu121
 
-# --- Core ML Libraries ---
-# Các thư viện PyTorch sẽ được tìm thấy từ extra-index-url ở trên
+# Core Libraries - Không ràng buộc phiên bản
 torch
 torchvision
 torchaudio
-
-# --- Hugging Face Ecosystem ---
-# Các thư viện này sẽ được tìm thấy từ kho PyPI mặc định
 transformers
 datasets
 accelerate
@@ -17,20 +13,15 @@ evaluate
 peft
 trl
 
-# --- Data Processing ---
+# Other libraries
 pandas
 numpy
 scikit-learn
 openpyxl
-
-# --- Utilities ---
 tqdm
 ipykernel
 notebook
-
-# --- Vietnamese Models Specific ---
 sentencepiece
 protobuf
-
-# --- Memory Optimization ---
 bitsandbytes
+nltk
