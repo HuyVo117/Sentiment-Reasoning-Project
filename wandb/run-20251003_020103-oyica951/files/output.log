@@ -1,6 +1,6 @@
-  7%|█████▋                                                                                | 89/1335 [02:43<40:59,  1.97s/it]Traceback (most recent call last):
-{'loss': 1.1357, 'grad_norm': 10.482641220092773, 'learning_rate': 1.9986467692505954e-05, 'epoch': 1.0}
-  File "D:\Sentiment-Reasoning-Project\training\encoder.py", line 205, in <module>███████████| 69/69 [01:07<00:00,  1.13it/s]
+  7%|█████▋                                                                                | 89/1335 [02:44<38:32,  1.86s/it]Traceback (most recent call last):
+{'loss': 1.0555, 'grad_norm': 26.655231475830078, 'learning_rate': 1.9986467692505954e-05, 'epoch': 1.0}
+  File "D:\Sentiment-Reasoning-Project\training\encoder.py", line 205, in <module>███████████| 69/69 [01:02<00:00,  1.19it/s]
     trainer.train()
   File "C:\Users\OS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 2328, in train
     return inner_training_loop(
